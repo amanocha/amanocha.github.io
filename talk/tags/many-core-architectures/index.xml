@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>many-core architectures | Aninda Manocha</title>
+    <link>http://www.cs.princeton.edu/~amanocha/tags/many-core-architectures/</link>
+      <atom:link href="http://www.cs.princeton.edu/~amanocha/tags/many-core-architectures/index.xml" rel="self" type="application/rss+xml" />
+    <description>many-core architectures</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 08 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <title>many-core architectures</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/many-core-architectures/</link>
+    </image>
+    
+    <item>
+      <title>Tiny but Mighty: Designing and Realizing Scalable Latency Tolerance for Manycore SoCs</title>
+      <link>http://www.cs.princeton.edu/~amanocha/publication/maple/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/publication/maple/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

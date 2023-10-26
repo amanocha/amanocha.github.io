@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>latency tolerance | Aninda Manocha</title>
+    <link>http://www.cs.princeton.edu/~amanocha/tags/latency-tolerance/</link>
+      <atom:link href="http://www.cs.princeton.edu/~amanocha/tags/latency-tolerance/index.xml" rel="self" type="application/rss+xml" />
+    <description>latency tolerance</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 08 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <title>latency tolerance</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/latency-tolerance/</link>
+    </image>
+    
+    <item>
+      <title>Tiny but Mighty: Designing and Realizing Scalable Latency Tolerance for Manycore SoCs</title>
+      <link>http://www.cs.princeton.edu/~amanocha/publication/maple/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/publication/maple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GraphAttack&#43;MAPLE: Optimizing Data Supply for Graph Applications on In-Order Multicore Architectures</title>
+      <link>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</link>
+      <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware-Software Co-Design for Efficient Graph Application Computations on Emerging Architectures</title>
+      <link>http://www.cs.princeton.edu/~amanocha/talk/fosdem20/</link>
+      <pubDate>Sat, 01 Feb 2020 16:40:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/talk/fosdem20/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

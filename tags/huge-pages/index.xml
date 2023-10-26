@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>huge pages | Aninda Manocha</title>
+    <link>http://www.cs.princeton.edu/~amanocha/tags/huge-pages/</link>
+      <atom:link href="http://www.cs.princeton.edu/~amanocha/tags/huge-pages/index.xml" rel="self" type="application/rss+xml" />
+    <description>huge pages</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <title>huge pages</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/huge-pages/</link>
+    </image>
+    
+    <item>
+      <title>The Implications of Page Size Management on Graph Analytics</title>
+      <link>http://www.cs.princeton.edu/~amanocha/publication/iiswc22/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/publication/iiswc22/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

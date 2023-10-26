@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Aninda Manocha</title>
+    <link>http://www.cs.princeton.edu/~amanocha/tags/</link>
+      <atom:link href="http://www.cs.princeton.edu/~amanocha/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/</link>
+    </image>
+    
+    <item>
+      <title>graph analytics</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/graph-analytics/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/graph-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>huge pages</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/huge-pages/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/huge-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>operating systems</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/operating-systems/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/operating-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtual memory</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/virtual-memory/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/virtual-memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hardware</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/hardware/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heterogeneous systems</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/heterogeneous-systems/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/heterogeneous-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latency tolerance</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/latency-tolerance/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/latency-tolerance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>many-core architectures</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/many-core-architectures/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/many-core-architectures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>parallelism</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/parallelism/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/parallelism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>caches</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/caches/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/caches/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memory hierarchy</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/memory-hierarchy/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/memory-hierarchy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multi-core architectures</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/multi-core-architectures/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/multi-core-architectures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>energy efficiency</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/energy-efficiency/</link>
+      <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/energy-efficiency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graph applications</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/graph-applications/</link>
+      <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/graph-applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hardware-software co-design</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/hardware-software-co-design/</link>
+      <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/hardware-software-co-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heterogeneity</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/heterogeneity/</link>
+      <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/heterogeneity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/software/</link>
+      <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>verilog</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/verilog/</link>
+      <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/verilog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automatic</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/automatic/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/automatic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>formal verification</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/formal-verification/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/formal-verification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>modular</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/modular/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/modular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SVA</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/sva/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/sva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LLVM simulation</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/llvm-simulation/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/llvm-simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>performance modeling</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/performance-modeling/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/performance-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian optimization</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/bayesian-optimization/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/bayesian-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design space exploration</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/design-space-exploration/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/design-space-exploration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fpga</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/fpga/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/fpga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>high-level synthesis</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/high-level-synthesis/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/high-level-synthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>accelerators</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/accelerators/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/accelerators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>architectures</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/architectures/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/architectures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>architecture</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/architecture/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compilers</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/compilers/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/compilers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heterogeneous</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/heterogeneous/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/heterogeneous/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/research/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simulators</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/simulators/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/simulators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>assembly</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/assembly/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/assembly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>circuits</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/circuits/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/tags/circuits/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hardware | Aninda Manocha</title>
+    <link>http://www.cs.princeton.edu/~amanocha/tags/hardware/</link>
+      <atom:link href="http://www.cs.princeton.edu/~amanocha/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <description>hardware</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 08 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <title>hardware</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/hardware/</link>
+    </image>
+    
+    <item>
+      <title>Tiny but Mighty: Designing and Realizing Scalable Latency Tolerance for Manycore SoCs</title>
+      <link>http://www.cs.princeton.edu/~amanocha/publication/maple/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/publication/maple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GraphAttack&#43;MAPLE: Optimizing Data Supply for Graph Applications on In-Order Multicore Architectures</title>
+      <link>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</link>
+      <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AutoSVA: Democratizing Formal Verification of RTL Module Interactions</title>
+      <link>http://www.cs.princeton.edu/~amanocha/publication/autosva/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/publication/autosva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DECADES</title>
+      <link>http://www.cs.princeton.edu/~amanocha/project/decades/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/project/decades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electric Keyboard</title>
+      <link>http://www.cs.princeton.edu/~amanocha/project/keyboard/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/project/keyboard/</guid>
+      <description>&lt;p&gt;&lt;b&gt; &lt;font size=&#34;+2&#34;&gt; Introduction &lt;/font&gt; &lt;/b&gt; &lt;br&gt;
+For the final project for my Digital Systems (ECE350) class, my friend and I created an electric keyboard with 13 custom-made keys using digital logic and an FPGA. The user can play up to three notes simultaneously on a physical light/touch-sensitive keyboard, hear the notes played, and see the notes played on a graphical staff as well as their duration in real time. Each piano key has an LED that lights up when that key is pressed, so the user interacts with a light-sensitive circuit. Additionally, when a key is pressed it sends a signal into our software modules, and in particular our processor. The processor performs computations based on the note played in order to determine how to display that note on a musical staff (how long the note has been played and what note was played). A keyboard key is also highlighted on a graphical keyboard based on the note played. There are also three speaker outputs that play the frequency being sent to them from the clock divider.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt; &lt;font size=&#34;+2&#34;&gt; Project Specifications &lt;/font&gt; &lt;/b&gt; &lt;br&gt;
+&lt;ol&gt;
+  &lt;li&gt;A breadboard with 13 sensing circuits for piano keys made of photoresistors, transistors, and LEDs that will light up in response to user input and also send a signal to the processor: The signal is interpreted to determine what note is pressed. When the note is processed, a piezoelectric speaker plays the sound. This also involves a clock divider module to send pulses at the correct frequencies to the speakers. The notes are mapped to the button inputs in order to select the proper divided clock frequencies and send them to to an amplifier circuit to play sound from the piezoelectric speaker. The processor handles the I/O from all of the notes, stores them in a register, and uses this info to determine how to respond and display the music notes.&lt;/li&gt;
+  &lt;li&gt;A custom-designed 3D printed 1-octave piano: This brings the feel of a piano to the circuit, which is important for a good user experience. The print is designed to fit the 13 keys within the dimensions of the breadboard and includes holes for the photo resistors and LEDs to fit through.&lt;/li&gt;
+  &lt;li&gt;Ability to push up to three piano keys so that the corresponding keys light up on the screen: The physical key lights update in real time as they are played. This allows the user to see what notes he/she is creating by pressing keys.&lt;/li&gt;
+  &lt;li&gt;Display of the music notes played by up to three keys simultaneously on a graphical staff: The notes update after every eighth note of time for as long as the user plays them (up to a whole note). When a note is initially played, it shows up as an eighth note. As it is played for more eighth notes worth of time, the display changes the note from an eighth note (1 unit of time) to a quarter note (2 units of time) to a dotted quarter note (3 units of time) to a half note (4 units of time) to a dotted half note (6 units of time) to a whole note (8 units time). After eight beats, a new eighth note is drawn in an updated x coordinate. The x coordinate for the next note updates based on how much time has passed since the last note was first played. Thus, as time goes on, the notes move across the staff. When the notes reach the end of the staff, they return to the beginning of the staff. There is a &amp;ldquo;reset screen&amp;rdquo; switch to clear all of the notes currently on the screen. The processor takes in all of the signals received from GPIO pins, determines the numbers of the notes played, determines what keys they map to, whether or not the key note length has changed, the coordinates to display the corresponding musical note, and loads and stores the pixel representation and location in memory for the VGA controller (for the display).&lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt; &lt;font size=&#34;+2&#34;&gt; Processor Design &lt;/font&gt; &lt;/b&gt; &lt;br&gt;
+As a precursor to this project, I designed a five-stage pipelined single-issue 32-bit processor that supports 18 MIPS instructions. I additionally modified the register file to allow for:
+&lt;ol&gt;
+  &lt;li&gt;A clock cycle counter that could be automatically written to, written to from mips, and read from mips &lt;/li&gt;
+  &lt;li&gt;The ability to process musical note inputs &lt;/li&gt;
+  &lt;li&gt;The storage of values that a VGA controller could use to update the graphical staff on the screen &lt;/li&gt;
+&lt;/ol&gt;
+This processor is then programmed onto an FPGA to run MIPS assembly code. I therefore input a MIPS assembly code that runs in a continuous loop to determine what musical notes are currently playing. One register stores a clock cycle counter that increments on every clock cycle. A line of MIPS code checks to see if the clock cycle counter register is at least 25 million because there are 25 million clock 50MHz clock cycles in an eighth note (using a tempo of 60 beats per measure). Other lines of MIPS code are also written assuming certain registers hold certain inputs from the note decoder, or hold outputs that will be accessed by the VGA controller through the processor&amp;rsquo;s output. These include three registers for the note being played, three notes the VGA should display, the x-coordinates of these notes, the note length of each, and a clear screen signal.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.cs.princeton.edu/~amanocha/~amanocha/img/flowchart.png#center&#34; alt=&#34;image&#34; /&gt; &lt;center&gt;&lt;em&gt;A flowchart detailing our music note calculation logic written in MIPS assembly&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt; &lt;font size=&#34;+2&#34;&gt; Physical Design &lt;/font&gt; &lt;/b&gt; &lt;br&gt;
+We designed the piano key frame using &lt;a href=&#34;https://www.sketchup.com/&#34; target=&#34;_blank&#34;&gt;SketchUp&lt;/a&gt; and 3D printed the 13-key model.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.cs.princeton.edu/~amanocha/~amanocha/img/model.png#center&#34; alt=&#34;image&#34; /&gt; &lt;center&gt;&lt;em&gt;Our SketchUp model&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Underneath the frame lay a breadboard that contained 13 identical sensing circuits, where each circuit was made up of resistors, a photoresistor, a transistor, and a light-emitting diode (LED). The LED stood up through the top hold in each key and the photoresistor stood up through the bottom hole of each key.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.cs.princeton.edu/~amanocha/~amanocha/img/lightsensor.png#center&#34; alt=&#34;image&#34; /&gt; &lt;center&gt;&lt;em&gt;Sensing circuit schematic&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;A piano key press was simulated by hovering (or touching) a finger over the edge of the key, where the photoresistor was located. We used an IRLD014 NPN MOSFET as a transistor to control when current should flow from its drain to its source, or from the 1K resistor to ground. The photoresistor was connected to the gate of the MOSFET as well as to a 10K resistor that was grounded. When the photoresistor was covered (received less light), its resistance decreased, so there was a lower voltage drop across it (less of a drop from VCC), which caused the gate voltage to increase. As the gate voltage increased, more current flowed from the drain of the MOSFET to the source and since the IR LED was connected to the drain of the MOSFET, more current flowed from VCC (3 volts) through the 1K resistor and into the LED (labeled &amp;ldquo;TO_DI&amp;rdquo; or &amp;ldquo;to diode&amp;rdquo;). Therefore, covering the photoresistor illuminated the LED and we were able to simulate a key lighting up by hovering a finger over the key.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.cs.princeton.edu/~amanocha/~amanocha/img/circuits.png#center&#34; alt=&#34;image&#34; /&gt; &lt;center&gt;&lt;em&gt;The entire hardware system consisting of an FPGA, sensing circuits for keys, and piezoelectric speakers&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;And here is a demo of the electric keyboard!
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;http://www.cs.princeton.edu/~amanocha/~amanocha/img/demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

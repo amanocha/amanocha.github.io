@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Aninda Manocha">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="An electric keyboard constructed out of an FPGA, a monitor, and 13 sensing circuits and custom-made keys.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://www.cs.princeton.edu/~amanocha/project/keyboard/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/~amanocha/css/academic.min.8912cfaf939ffc76bfc5fdb8dceec719.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-125135824-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/~amanocha/index.webmanifest">
+  <link rel="icon" type="image/png" href="/~amanocha/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/~amanocha/img/icon-192.png">
+
+  <link rel="canonical" href="http://www.cs.princeton.edu/~amanocha/project/keyboard/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Aninda Manocha">
+  <meta property="og:url" content="http://www.cs.princeton.edu/~amanocha/project/keyboard/">
+  <meta property="og:title" content="Electric Keyboard | Aninda Manocha">
+  <meta property="og:description" content="An electric keyboard constructed out of an FPGA, a monitor, and 13 sensing circuits and custom-made keys."><meta property="og:image" content="http://www.cs.princeton.edu/~amanocha/project/keyboard/featured.jpg">
+  <meta property="twitter:image" content="http://www.cs.princeton.edu/~amanocha/project/keyboard/featured.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2017-12-08T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2017-12-08T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://www.cs.princeton.edu/~amanocha/project/keyboard/"
+  },
+  "headline": "Electric Keyboard",
+  
+  "image": [
+    "http://www.cs.princeton.edu/~amanocha/project/keyboard/featured.jpg"
+  ],
+  
+  "datePublished": "2017-12-08T00:00:00Z",
+  "dateModified": "2017-12-08T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Aninda Manocha"
+  },
+  
+  "description": "An electric keyboard constructed out of an FPGA, a monitor, and 13 sensing circuits and custom-made keys."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Electric Keyboard | Aninda Manocha</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/~amanocha/">Aninda Manocha</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~amanocha/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~amanocha/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~amanocha/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~amanocha/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~amanocha/#awards"><span>Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~amanocha/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~amanocha/#tags"><span>Popular Topics</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~amanocha/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Electric Keyboard</h1>
+
+  
+
+  
+
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 8, 2017
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http://www.cs.princeton.edu/~amanocha/project/keyboard/&amp;text=Electric%20Keyboard" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http://www.cs.princeton.edu/~amanocha/project/keyboard/&amp;t=Electric%20Keyboard" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Electric%20Keyboard&amp;body=http://www.cs.princeton.edu/~amanocha/project/keyboard/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http://www.cs.princeton.edu/~amanocha/project/keyboard/&amp;title=Electric%20Keyboard" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Electric%20Keyboard%20http://www.cs.princeton.edu/~amanocha/project/keyboard/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=http://www.cs.princeton.edu/~amanocha/project/keyboard/&amp;title=Electric%20Keyboard" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 595px;">
+  <div style="position: relative">
+    <img src="/~amanocha/project/keyboard/featured_huc305a38bc66f16344d2dc8af46e91e50_209430_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">The electric keyboard graphical interface.</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p><b> <font size="+2"> Introduction </font> </b> <br>
+For the final project for my Digital Systems (ECE350) class, my friend and I created an electric keyboard with 13 custom-made keys using digital logic and an FPGA. The user can play up to three notes simultaneously on a physical light/touch-sensitive keyboard, hear the notes played, and see the notes played on a graphical staff as well as their duration in real time. Each piano key has an LED that lights up when that key is pressed, so the user interacts with a light-sensitive circuit. Additionally, when a key is pressed it sends a signal into our software modules, and in particular our processor. The processor performs computations based on the note played in order to determine how to display that note on a musical staff (how long the note has been played and what note was played). A keyboard key is also highlighted on a graphical keyboard based on the note played. There are also three speaker outputs that play the frequency being sent to them from the clock divider.</p>
+
+<p><b> <font size="+2"> Project Specifications </font> </b> <br>
+<ol>
+  <li>A breadboard with 13 sensing circuits for piano keys made of photoresistors, transistors, and LEDs that will light up in response to user input and also send a signal to the processor: The signal is interpreted to determine what note is pressed. When the note is processed, a piezoelectric speaker plays the sound. This also involves a clock divider module to send pulses at the correct frequencies to the speakers. The notes are mapped to the button inputs in order to select the proper divided clock frequencies and send them to to an amplifier circuit to play sound from the piezoelectric speaker. The processor handles the I/O from all of the notes, stores them in a register, and uses this info to determine how to respond and display the music notes.</li>
+  <li>A custom-designed 3D printed 1-octave piano: This brings the feel of a piano to the circuit, which is important for a good user experience. The print is designed to fit the 13 keys within the dimensions of the breadboard and includes holes for the photo resistors and LEDs to fit through.</li>
+  <li>Ability to push up to three piano keys so that the corresponding keys light up on the screen: The physical key lights update in real time as they are played. This allows the user to see what notes he/she is creating by pressing keys.</li>
+  <li>Display of the music notes played by up to three keys simultaneously on a graphical staff: The notes update after every eighth note of time for as long as the user plays them (up to a whole note). When a note is initially played, it shows up as an eighth note. As it is played for more eighth notes worth of time, the display changes the note from an eighth note (1 unit of time) to a quarter note (2 units of time) to a dotted quarter note (3 units of time) to a half note (4 units of time) to a dotted half note (6 units of time) to a whole note (8 units time). After eight beats, a new eighth note is drawn in an updated x coordinate. The x coordinate for the next note updates based on how much time has passed since the last note was first played. Thus, as time goes on, the notes move across the staff. When the notes reach the end of the staff, they return to the beginning of the staff. There is a &ldquo;reset screen&rdquo; switch to clear all of the notes currently on the screen. The processor takes in all of the signals received from GPIO pins, determines the numbers of the notes played, determines what keys they map to, whether or not the key note length has changed, the coordinates to display the corresponding musical note, and loads and stores the pixel representation and location in memory for the VGA controller (for the display).</li>
+</ol></p>
+
+<p><b> <font size="+2"> Processor Design </font> </b> <br>
+As a precursor to this project, I designed a five-stage pipelined single-issue 32-bit processor that supports 18 MIPS instructions. I additionally modified the register file to allow for:
+<ol>
+  <li>A clock cycle counter that could be automatically written to, written to from mips, and read from mips </li>
+  <li>The ability to process musical note inputs </li>
+  <li>The storage of values that a VGA controller could use to update the graphical staff on the screen </li>
+</ol>
+This processor is then programmed onto an FPGA to run MIPS assembly code. I therefore input a MIPS assembly code that runs in a continuous loop to determine what musical notes are currently playing. One register stores a clock cycle counter that increments on every clock cycle. A line of MIPS code checks to see if the clock cycle counter register is at least 25 million because there are 25 million clock 50MHz clock cycles in an eighth note (using a tempo of 60 beats per measure). Other lines of MIPS code are also written assuming certain registers hold certain inputs from the note decoder, or hold outputs that will be accessed by the VGA controller through the processor&rsquo;s output. These include three registers for the note being played, three notes the VGA should display, the x-coordinates of these notes, the note length of each, and a clear screen signal.</p>
+
+<p><img src="/~amanocha/img/flowchart.png#center" alt="image" /> <center><em>A flowchart detailing our music note calculation logic written in MIPS assembly</em></center></p>
+
+<p><b> <font size="+2"> Physical Design </font> </b> <br>
+We designed the piano key frame using <a href="https://www.sketchup.com/" target="_blank">SketchUp</a> and 3D printed the 13-key model.</p>
+
+<p><img src="/~amanocha/img/model.png#center" alt="image" /> <center><em>Our SketchUp model</em></center></p>
+
+<p>Underneath the frame lay a breadboard that contained 13 identical sensing circuits, where each circuit was made up of resistors, a photoresistor, a transistor, and a light-emitting diode (LED). The LED stood up through the top hold in each key and the photoresistor stood up through the bottom hole of each key.</p>
+
+<p><img src="/~amanocha/img/lightsensor.png#center" alt="image" /> <center><em>Sensing circuit schematic</em></center></p>
+
+<p>A piano key press was simulated by hovering (or touching) a finger over the edge of the key, where the photoresistor was located. We used an IRLD014 NPN MOSFET as a transistor to control when current should flow from its drain to its source, or from the 1K resistor to ground. The photoresistor was connected to the gate of the MOSFET as well as to a 10K resistor that was grounded. When the photoresistor was covered (received less light), its resistance decreased, so there was a lower voltage drop across it (less of a drop from VCC), which caused the gate voltage to increase. As the gate voltage increased, more current flowed from the drain of the MOSFET to the source and since the IR LED was connected to the drain of the MOSFET, more current flowed from VCC (3 volts) through the 1K resistor and into the LED (labeled &ldquo;TO_DI&rdquo; or &ldquo;to diode&rdquo;). Therefore, covering the photoresistor illuminated the LED and we were able to simulate a key lighting up by hovering a finger over the key.</p>
+
+<p><img src="/~amanocha/img/circuits.png#center" alt="image" /> <center><em>The entire hardware system consisting of an FPGA, sensing circuits for keys, and piezoelectric speakers</em></center></p>
+
+<p>And here is a demo of the electric keyboard!
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<video controls >
+  <source src="/~amanocha/img/demo.mp4" type="video/mp4">
+</video></p>
+
+    </div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/~amanocha/tags/assembly/">assembly</a>
+  
+  <a class="badge badge-light" href="/~amanocha/tags/circuits/">circuits</a>
+  
+  <a class="badge badge-light" href="/~amanocha/tags/fpga/">fpga</a>
+  
+  <a class="badge badge-light" href="/~amanocha/tags/hardware/">hardware</a>
+  
+  <a class="badge badge-light" href="/~amanocha/tags/software/">software</a>
+  
+  <a class="badge badge-light" href="/~amanocha/tags/verilog/">verilog</a>
+  
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card">
+    
+      
+      <img class="portrait mr-3" src="/~amanocha/authors/admin/avatar_hu972829704bf73eaf1c9506580714dd12_985038_250x250_fill_lanczos_center_2.png" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="http://www.cs.princeton.edu/~amanocha/">Aninda Manocha</a></h5>
+      <h6 class="card-subtitle">Computer Science PhD Student</h6>
+      <p class="card-text">My research interests lie in hardware-software co-design and memory hierarchy approaches to allow emerging workloads and technology trends to meet in the post-Moore&rsquo;s Law era.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+          
+          
+          
+          
+          <li>
+            <a href="mailto:amanocha@princeton.edu" >
+              <i class="fa fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://scholar.google.com/citations?user=61GWAWcAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://twitter.com/anindamanocha" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://linkedin.com/in/anindamanocha" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="https://github.com/amanocha" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a href="/~amanocha/files/CV_Sept2022.pdf" >
+              <i class="ai ai-cv"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
+    
+
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+  </div>
+</article>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/~amanocha/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/~amanocha/js/academic.min.3fd8bd65e849797541d2bb4e0f029b72.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>performance modeling | Aninda Manocha</title>
+    <link>http://www.cs.princeton.edu/~amanocha/tags/performance-modeling/</link>
+      <atom:link href="http://www.cs.princeton.edu/~amanocha/tags/performance-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <description>performance modeling</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <title>performance modeling</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/performance-modeling/</link>
+    </image>
+    
+    <item>
+      <title>[Invited Talk] A Simulator and Compiler Framework for Agile Hardware-Software Co-design Evaluation and Exploration</title>
+      <link>http://www.cs.princeton.edu/~amanocha/publication/decpp/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/publication/decpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MosaicSim: A Lightweight, Modular Simulator for Heterogeneous Systems</title>
+      <link>http://www.cs.princeton.edu/~amanocha/publication/mosaicsim/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/publication/mosaicsim/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hardware-software co-design | Aninda Manocha</title>
+    <link>http://www.cs.princeton.edu/~amanocha/tags/hardware-software-co-design/</link>
+      <atom:link href="http://www.cs.princeton.edu/~amanocha/tags/hardware-software-co-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>hardware-software co-design</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 18 Nov 2021 10:15:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <title>hardware-software co-design</title>
+      <link>http://www.cs.princeton.edu/~amanocha/tags/hardware-software-co-design/</link>
+    </image>
+    
+    <item>
+      <title>GraphAttack&#43;MAPLE: Optimizing Data Supply for Graph Applications on In-Order Multicore Architectures</title>
+      <link>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</link>
+      <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GraphAttack: Optimizing Data Supply for Graph Applications on In-Order Multicore Architectures</title>
+      <link>http://www.cs.princeton.edu/~amanocha/publication/graphattack/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/publication/graphattack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Invited Talk] A Simulator and Compiler Framework for Agile Hardware-Software Co-design Evaluation and Exploration</title>
+      <link>http://www.cs.princeton.edu/~amanocha/publication/decpp/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/publication/decpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware-Software Co-Design for Efficient Graph Application Computations on Emerging Architectures</title>
+      <link>http://www.cs.princeton.edu/~amanocha/talk/fosdem20/</link>
+      <pubDate>Sat, 01 Feb 2020 16:40:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/talk/fosdem20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Workshop] Prospector: Synthesizing Efficient Accelerators via Statistical Learning</title>
+      <link>http://www.cs.princeton.edu/~amanocha/publication/cwwmca/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/publication/cwwmca/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

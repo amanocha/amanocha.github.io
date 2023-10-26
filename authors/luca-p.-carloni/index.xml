@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luca P. Carloni | Aninda Manocha</title>
+    <link>http://www.cs.princeton.edu/~amanocha/authors/luca-p.-carloni/</link>
+      <atom:link href="http://www.cs.princeton.edu/~amanocha/authors/luca-p.-carloni/index.xml" rel="self" type="application/rss+xml" />
+    <description>Luca P. Carloni</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <title>Luca P. Carloni</title>
+      <link>http://www.cs.princeton.edu/~amanocha/authors/luca-p.-carloni/</link>
+    </image>
+    
+    <item>
+      <title>MosaicSim: A Lightweight, Modular Simulator for Heterogeneous Systems</title>
+      <link>http://www.cs.princeton.edu/~amanocha/publication/mosaicsim/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/publication/mosaicsim/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

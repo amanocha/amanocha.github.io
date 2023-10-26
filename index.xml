@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aninda Manocha</title>
+    <link>http://www.cs.princeton.edu/~amanocha/</link>
+      <atom:link href="http://www.cs.princeton.edu/~amanocha/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aninda Manocha</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <title>Aninda Manocha</title>
+      <link>http://www.cs.princeton.edu/~amanocha/</link>
+    </image>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://www.cs.princeton.edu/~amanocha/publication/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>http://www.cs.princeton.edu/~amanocha/talk/</link>
+      <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://www.cs.princeton.edu/~amanocha/project/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>http://www.cs.princeton.edu/~amanocha/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
