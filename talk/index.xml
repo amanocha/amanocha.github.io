@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks | Aninda Manocha</title>
-    <link>http://www.cs.princeton.edu/~amanocha/talk/</link>
-      <atom:link href="http://www.cs.princeton.edu/~amanocha/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.amanocha.github.io/talk/</link>
+      <atom:link href="http://www.amanocha.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 18 Nov 2021 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <url>http://www.amanocha.github.io/img/icon-192.png</url>
       <title>Talks</title>
-      <link>http://www.cs.princeton.edu/~amanocha/talk/</link>
+      <link>http://www.amanocha.github.io/talk/</link>
     </image>
     
     <item>
       <title>GraphAttack&#43;MAPLE: Optimizing Data Supply for Graph Applications on In-Order Multicore Architectures</title>
-      <link>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</link>
+      <link>http://www.amanocha.github.io/talk/dortmund_seminar/</link>
       <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</guid>
+      <guid>http://www.amanocha.github.io/talk/dortmund_seminar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hardware-Software Co-Design for Efficient Graph Application Computations on Emerging Architectures</title>
-      <link>http://www.cs.princeton.edu/~amanocha/talk/fosdem20/</link>
+      <link>http://www.amanocha.github.io/talk/fosdem20/</link>
       <pubDate>Sat, 01 Feb 2020 16:40:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/talk/fosdem20/</guid>
+      <guid>http://www.amanocha.github.io/talk/fosdem20/</guid>
       <description></description>
     </item>
     

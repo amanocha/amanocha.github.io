@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Aninda Manocha</title>
-    <link>http://www.cs.princeton.edu/~amanocha/publication_types/</link>
-      <atom:link href="http://www.cs.princeton.edu/~amanocha/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.amanocha.github.io/publication_types/</link>
+      <atom:link href="http://www.amanocha.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <url>http://www.amanocha.github.io/img/icon-192.png</url>
       <title>Publication_types</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication_types/</link>
+      <link>http://www.amanocha.github.io/publication_types/</link>
     </image>
     
     <item>
       <title>1</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication_types/1/</link>
+      <link>http://www.amanocha.github.io/publication_types/1/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication_types/1/</guid>
+      <guid>http://www.amanocha.github.io/publication_types/1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication_types/2/</link>
+      <link>http://www.amanocha.github.io/publication_types/2/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication_types/2/</guid>
+      <guid>http://www.amanocha.github.io/publication_types/2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication_types/3/</link>
+      <link>http://www.amanocha.github.io/publication_types/3/</link>
       <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication_types/3/</guid>
+      <guid>http://www.amanocha.github.io/publication_types/3/</guid>
       <description></description>
     </item>
     

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tyler Sorensen | Aninda Manocha</title>
-    <link>http://www.cs.princeton.edu/~amanocha/authors/tyler-sorensen/</link>
-      <atom:link href="http://www.cs.princeton.edu/~amanocha/authors/tyler-sorensen/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.amanocha.github.io/authors/tyler-sorensen/</link>
+      <atom:link href="http://www.amanocha.github.io/authors/tyler-sorensen/index.xml" rel="self" type="application/rss+xml" />
     <description>Tyler Sorensen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <url>http://www.amanocha.github.io/img/icon-192.png</url>
       <title>Tyler Sorensen</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/tyler-sorensen/</link>
+      <link>http://www.amanocha.github.io/authors/tyler-sorensen/</link>
     </image>
     
     <item>
       <title>GraphAttack: Optimizing Data Supply for Graph Applications on In-Order Multicore Architectures</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/graphattack/</link>
+      <link>http://www.amanocha.github.io/publication/graphattack/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/graphattack/</guid>
+      <guid>http://www.amanocha.github.io/publication/graphattack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[Invited Talk] A Simulator and Compiler Framework for Agile Hardware-Software Co-design Evaluation and Exploration</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/decpp/</link>
+      <link>http://www.amanocha.github.io/publication/decpp/</link>
       <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/decpp/</guid>
+      <guid>http://www.amanocha.github.io/publication/decpp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MosaicSim: A Lightweight, Modular Simulator for Heterogeneous Systems</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/mosaicsim/</link>
+      <link>http://www.amanocha.github.io/publication/mosaicsim/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/mosaicsim/</guid>
+      <guid>http://www.amanocha.github.io/publication/mosaicsim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hardware-Software Co-Design for Efficient Graph Application Computations on Emerging Architectures</title>
-      <link>http://www.cs.princeton.edu/~amanocha/talk/fosdem20/</link>
+      <link>http://www.amanocha.github.io/talk/fosdem20/</link>
       <pubDate>Sat, 01 Feb 2020 16:40:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/talk/fosdem20/</guid>
+      <guid>http://www.amanocha.github.io/talk/fosdem20/</guid>
       <description></description>
     </item>
     

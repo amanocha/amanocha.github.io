@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daniel J. Sorin | Aninda Manocha</title>
-    <link>http://www.cs.princeton.edu/~amanocha/authors/daniel-j.-sorin/</link>
-      <atom:link href="http://www.cs.princeton.edu/~amanocha/authors/daniel-j.-sorin/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.amanocha.github.io/authors/daniel-j.-sorin/</link>
+      <atom:link href="http://www.amanocha.github.io/authors/daniel-j.-sorin/index.xml" rel="self" type="application/rss+xml" />
     <description>Daniel J. Sorin</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 29 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <url>http://www.amanocha.github.io/img/icon-192.png</url>
       <title>Daniel J. Sorin</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/daniel-j.-sorin/</link>
+      <link>http://www.amanocha.github.io/authors/daniel-j.-sorin/</link>
     </image>
     
     <item>
       <title>Bayesian Optimization for Efficient Accelerator Synthesis</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/prospector_taco/</link>
+      <link>http://www.amanocha.github.io/publication/prospector_taco/</link>
       <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/prospector_taco/</guid>
+      <guid>http://www.amanocha.github.io/publication/prospector_taco/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Prospector: Synthesizing Efficient Accelerators via Statistical Learning</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/prospector_date/</link>
+      <link>http://www.amanocha.github.io/publication/prospector_date/</link>
       <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/prospector_date/</guid>
+      <guid>http://www.amanocha.github.io/publication/prospector_date/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[Workshop] Prospector: Synthesizing Efficient Accelerators via Statistical Learning</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/cwwmca/</link>
+      <link>http://www.amanocha.github.io/publication/cwwmca/</link>
       <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/cwwmca/</guid>
+      <guid>http://www.amanocha.github.io/publication/cwwmca/</guid>
       <description></description>
     </item>
     

@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>accelerators | Aninda Manocha</title>
-    <link>http://www.cs.princeton.edu/~amanocha/tags/accelerators/</link>
-      <atom:link href="http://www.cs.princeton.edu/~amanocha/tags/accelerators/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.amanocha.github.io/tags/accelerators/</link>
+      <atom:link href="http://www.amanocha.github.io/tags/accelerators/index.xml" rel="self" type="application/rss+xml" />
     <description>accelerators</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <url>http://www.amanocha.github.io/img/icon-192.png</url>
       <title>accelerators</title>
-      <link>http://www.cs.princeton.edu/~amanocha/tags/accelerators/</link>
+      <link>http://www.amanocha.github.io/tags/accelerators/</link>
     </image>
     
     <item>
       <title>MosaicSim: A Lightweight, Modular Simulator for Heterogeneous Systems</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/mosaicsim/</link>
+      <link>http://www.amanocha.github.io/publication/mosaicsim/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/mosaicsim/</guid>
+      <guid>http://www.amanocha.github.io/publication/mosaicsim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[Workshop] Prospector: Synthesizing Efficient Accelerators via Statistical Learning</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/cwwmca/</link>
+      <link>http://www.amanocha.github.io/publication/cwwmca/</link>
       <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/cwwmca/</guid>
+      <guid>http://www.amanocha.github.io/publication/cwwmca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DECADES</title>
-      <link>http://www.cs.princeton.edu/~amanocha/project/decades/</link>
+      <link>http://www.amanocha.github.io/project/decades/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/project/decades/</guid>
+      <guid>http://www.amanocha.github.io/project/decades/</guid>
       <description></description>
     </item>
     

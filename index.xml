@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aninda Manocha</title>
-    <link>http://www.cs.princeton.edu/~amanocha/</link>
-      <atom:link href="http://www.cs.princeton.edu/~amanocha/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.amanocha.github.io/</link>
+      <atom:link href="http://www.amanocha.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Aninda Manocha</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <url>http://www.amanocha.github.io/img/icon-192.png</url>
       <title>Aninda Manocha</title>
-      <link>http://www.cs.princeton.edu/~amanocha/</link>
+      <link>http://www.amanocha.github.io/</link>
     </image>
     
     <item>
       <title>Publications</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/</link>
+      <link>http://www.amanocha.github.io/publication/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/</guid>
+      <guid>http://www.amanocha.github.io/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Talks</title>
-      <link>http://www.cs.princeton.edu/~amanocha/talk/</link>
+      <link>http://www.amanocha.github.io/talk/</link>
       <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/talk/</guid>
+      <guid>http://www.amanocha.github.io/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://www.cs.princeton.edu/~amanocha/project/</link>
+      <link>http://www.amanocha.github.io/project/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/project/</guid>
+      <guid>http://www.amanocha.github.io/project/</guid>
       <description></description>
     </item>
     
@@ -46,9 +46,9 @@
     
     <item>
       <title>Posts</title>
-      <link>http://www.cs.princeton.edu/~amanocha/post/</link>
+      <link>http://www.amanocha.github.io/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/post/</guid>
+      <guid>http://www.amanocha.github.io/post/</guid>
       <description></description>
     </item>
     

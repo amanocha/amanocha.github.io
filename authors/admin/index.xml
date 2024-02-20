@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aninda Manocha</title>
-    <link>http://www.cs.princeton.edu/~amanocha/authors/admin/</link>
-      <atom:link href="http://www.cs.princeton.edu/~amanocha/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.amanocha.github.io/authors/admin/</link>
+      <atom:link href="http://www.amanocha.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Aninda Manocha</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright>
     <image>
-      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <url>http://www.amanocha.github.io/img/icon-192.png</url>
       <title>Aninda Manocha</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/admin/</link>
+      <link>http://www.amanocha.github.io/authors/admin/</link>
     </image>
     
   </channel>

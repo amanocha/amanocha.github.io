@@ -2,189 +2,189 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Aninda Manocha</title>
-    <link>http://www.cs.princeton.edu/~amanocha/authors/</link>
-      <atom:link href="http://www.cs.princeton.edu/~amanocha/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.amanocha.github.io/authors/</link>
+      <atom:link href="http://www.amanocha.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <url>http://www.amanocha.github.io/img/icon-192.png</url>
       <title>Authors</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/</link>
+      <link>http://www.amanocha.github.io/authors/</link>
     </image>
     
     <item>
       <title>&lt;b&gt;&lt;font color=&#34;black&#34;&gt;Aninda Manocha&lt;/font&gt;&lt;/b&gt;</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/bfont-colorblackaninda-manocha/font/b/</link>
+      <link>http://www.amanocha.github.io/authors/bfont-colorblackaninda-manocha/font/b/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/bfont-colorblackaninda-manocha/font/b/</guid>
+      <guid>http://www.amanocha.github.io/authors/bfont-colorblackaninda-manocha/font/b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>David Nellans</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/david-nellans/</link>
+      <link>http://www.amanocha.github.io/authors/david-nellans/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/david-nellans/</guid>
+      <guid>http://www.amanocha.github.io/authors/david-nellans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Esin Tureci</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/esin-tureci/</link>
+      <link>http://www.amanocha.github.io/authors/esin-tureci/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/esin-tureci/</guid>
+      <guid>http://www.amanocha.github.io/authors/esin-tureci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Juan Luis Aragón</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/juan-luis-aragon/</link>
+      <link>http://www.amanocha.github.io/authors/juan-luis-aragon/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/juan-luis-aragon/</guid>
+      <guid>http://www.amanocha.github.io/authors/juan-luis-aragon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Margaret  Martonosi</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/margaret-martonosi/</link>
+      <link>http://www.amanocha.github.io/authors/margaret-martonosi/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/margaret-martonosi/</guid>
+      <guid>http://www.amanocha.github.io/authors/margaret-martonosi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zi Yan</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/zi-yan/</link>
+      <link>http://www.amanocha.github.io/authors/zi-yan/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/zi-yan/</guid>
+      <guid>http://www.amanocha.github.io/authors/zi-yan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fei Gao</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/fei-gao/</link>
+      <link>http://www.amanocha.github.io/authors/fei-gao/</link>
       <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/fei-gao/</guid>
+      <guid>http://www.amanocha.github.io/authors/fei-gao/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jonathan Balkind</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/jonathan-balkind/</link>
+      <link>http://www.amanocha.github.io/authors/jonathan-balkind/</link>
       <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/jonathan-balkind/</guid>
+      <guid>http://www.amanocha.github.io/authors/jonathan-balkind/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marcelo Orenes Vera</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/marcelo-orenes-vera/</link>
+      <link>http://www.amanocha.github.io/authors/marcelo-orenes-vera/</link>
       <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/marcelo-orenes-vera/</guid>
+      <guid>http://www.amanocha.github.io/authors/marcelo-orenes-vera/</guid>
       <description></description>
     </item>
     
     <item>
       <title>and Marcelo Orenes Vera</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/and-marcelo-orenes-vera/</link>
+      <link>http://www.amanocha.github.io/authors/and-marcelo-orenes-vera/</link>
       <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/and-marcelo-orenes-vera/</guid>
+      <guid>http://www.amanocha.github.io/authors/and-marcelo-orenes-vera/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aninda Manocha</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/aninda-manocha/</link>
+      <link>http://www.amanocha.github.io/authors/aninda-manocha/</link>
       <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/aninda-manocha/</guid>
+      <guid>http://www.amanocha.github.io/authors/aninda-manocha/</guid>
       <description></description>
     </item>
     
     <item>
       <title>David Wentzlaff</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/david-wentzlaff/</link>
+      <link>http://www.amanocha.github.io/authors/david-wentzlaff/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/david-wentzlaff/</guid>
+      <guid>http://www.amanocha.github.io/authors/david-wentzlaff/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Opeoluwa Matthews</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/opeoluwa-matthews/</link>
+      <link>http://www.amanocha.github.io/authors/opeoluwa-matthews/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/opeoluwa-matthews/</guid>
+      <guid>http://www.amanocha.github.io/authors/opeoluwa-matthews/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tyler Sorensen</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/tyler-sorensen/</link>
+      <link>http://www.amanocha.github.io/authors/tyler-sorensen/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/tyler-sorensen/</guid>
+      <guid>http://www.amanocha.github.io/authors/tyler-sorensen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Juan L. Aragón</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/juan-l.-aragon/</link>
+      <link>http://www.amanocha.github.io/authors/juan-l.-aragon/</link>
       <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/juan-l.-aragon/</guid>
+      <guid>http://www.amanocha.github.io/authors/juan-l.-aragon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Atefeh Mehrabi</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/atefeh-mehrabi/</link>
+      <link>http://www.amanocha.github.io/authors/atefeh-mehrabi/</link>
       <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/atefeh-mehrabi/</guid>
+      <guid>http://www.amanocha.github.io/authors/atefeh-mehrabi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Benjamin C. Lee</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/benjamin-c.-lee/</link>
+      <link>http://www.amanocha.github.io/authors/benjamin-c.-lee/</link>
       <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/benjamin-c.-lee/</guid>
+      <guid>http://www.amanocha.github.io/authors/benjamin-c.-lee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Daniel J. Sorin</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/daniel-j.-sorin/</link>
+      <link>http://www.amanocha.github.io/authors/daniel-j.-sorin/</link>
       <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/daniel-j.-sorin/</guid>
+      <guid>http://www.amanocha.github.io/authors/daniel-j.-sorin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Davide Giri</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/davide-giri/</link>
+      <link>http://www.amanocha.github.io/authors/davide-giri/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/davide-giri/</guid>
+      <guid>http://www.amanocha.github.io/authors/davide-giri/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Luca P. Carloni</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/luca-p.-carloni/</link>
+      <link>http://www.amanocha.github.io/authors/luca-p.-carloni/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/luca-p.-carloni/</guid>
+      <guid>http://www.amanocha.github.io/authors/luca-p.-carloni/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tae Jun Ham</title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/tae-jun-ham/</link>
+      <link>http://www.amanocha.github.io/authors/tae-jun-ham/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/tae-jun-ham/</guid>
+      <guid>http://www.amanocha.github.io/authors/tae-jun-ham/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.cs.princeton.edu/~amanocha/authors/admin/</link>
+      <link>http://www.amanocha.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/authors/admin/</guid>
+      <guid>http://www.amanocha.github.io/authors/admin/</guid>
       <description>&lt;p&gt;I am a fifth-year graduate student in Computer Science at &lt;a href=&#34;https://www.cs.princeton.edu/&#34; target=&#34;_blank&#34;&gt;Princeton University&lt;/a&gt; advised by &lt;a href=&#34;http://www.princeton.edu/~mrm/&#34; target=&#34;_blank&#34;&gt;Professor Margaret Martonosi&lt;/a&gt;. My broad area of research is Computer Architecture and more specifically, I am interested in optimizing data supply and memory management for graph applications. Throughout my PhD, I have been a contributor to the &lt;a href=&#34;http://decades.cs.princeton.edu/&#34; target=&#34;_blank&#34;&gt;DECADES project&lt;/a&gt;, a full-stack system design that aims to improve the performance, power, and programmability of several emerging workflows in the broad areas of machine learning and graph analytics. This platform rapidly adapts to the increasingly flexible and blurred boundary between software and hardware through various reconfigurable hardware features, depending on application characteristics. I have developed hardware-software co-design and memory hierarchy approaches and am currently designing operating system techniques to address the memory latency bottlenecks of irregular workloads in the domains of graph and sparse applications.&lt;/p&gt;
 
 &lt;p&gt;Previously, I worked with &lt;a href=&#34;https://www.seas.upenn.edu/~leebcc/&#34; target=&#34;_blank&#34;&gt;Professor Benjamin C. Lee&lt;/a&gt; at &lt;a href=&#34;https://ece.duke.edu/&#34; target=&#34;_blank&#34;&gt;Duke University&lt;/a&gt;, where I received my bachelor&amp;rsquo;s degrees in Electrical and Computer Engineering as well as Computer Science. My research involved investigating distributed systems, characterizing crowd computing and mobile architectures, and enabling efficient hardware accelerator design via statistical learning for high-level synthesis parameter tuning.&lt;/p&gt;

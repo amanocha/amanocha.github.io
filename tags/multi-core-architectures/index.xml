@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>multi-core architectures | Aninda Manocha</title>
-    <link>http://www.cs.princeton.edu/~amanocha/tags/multi-core-architectures/</link>
-      <atom:link href="http://www.cs.princeton.edu/~amanocha/tags/multi-core-architectures/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.amanocha.github.io/tags/multi-core-architectures/</link>
+      <atom:link href="http://www.amanocha.github.io/tags/multi-core-architectures/index.xml" rel="self" type="application/rss+xml" />
     <description>multi-core architectures</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <url>http://www.amanocha.github.io/img/icon-192.png</url>
       <title>multi-core architectures</title>
-      <link>http://www.cs.princeton.edu/~amanocha/tags/multi-core-architectures/</link>
+      <link>http://www.amanocha.github.io/tags/multi-core-architectures/</link>
     </image>
     
     <item>
       <title>GraphFire: Synergizing Fetch, Insertion, and Replacement Policies for Graph Analytics</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/graphfire/</link>
+      <link>http://www.amanocha.github.io/publication/graphfire/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/graphfire/</guid>
+      <guid>http://www.amanocha.github.io/publication/graphfire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GraphAttack&#43;MAPLE: Optimizing Data Supply for Graph Applications on In-Order Multicore Architectures</title>
-      <link>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</link>
+      <link>http://www.amanocha.github.io/talk/dortmund_seminar/</link>
       <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</guid>
+      <guid>http://www.amanocha.github.io/talk/dortmund_seminar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GraphAttack: Optimizing Data Supply for Graph Applications on In-Order Multicore Architectures</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/graphattack/</link>
+      <link>http://www.amanocha.github.io/publication/graphattack/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/graphattack/</guid>
+      <guid>http://www.amanocha.github.io/publication/graphattack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MosaicSim: A Lightweight, Modular Simulator for Heterogeneous Systems</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/mosaicsim/</link>
+      <link>http://www.amanocha.github.io/publication/mosaicsim/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/mosaicsim/</guid>
+      <guid>http://www.amanocha.github.io/publication/mosaicsim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hardware-Software Co-Design for Efficient Graph Application Computations on Emerging Architectures</title>
-      <link>http://www.cs.princeton.edu/~amanocha/talk/fosdem20/</link>
+      <link>http://www.amanocha.github.io/talk/fosdem20/</link>
       <pubDate>Sat, 01 Feb 2020 16:40:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/talk/fosdem20/</guid>
+      <guid>http://www.amanocha.github.io/talk/fosdem20/</guid>
       <description></description>
     </item>
     

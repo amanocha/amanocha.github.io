@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hardware | Aninda Manocha</title>
-    <link>http://www.cs.princeton.edu/~amanocha/tags/hardware/</link>
-      <atom:link href="http://www.cs.princeton.edu/~amanocha/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.amanocha.github.io/tags/hardware/</link>
+      <atom:link href="http://www.amanocha.github.io/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <description>hardware</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 08 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
+      <url>http://www.amanocha.github.io/img/icon-192.png</url>
       <title>hardware</title>
-      <link>http://www.cs.princeton.edu/~amanocha/tags/hardware/</link>
+      <link>http://www.amanocha.github.io/tags/hardware/</link>
     </image>
     
     <item>
       <title>Tiny but Mighty: Designing and Realizing Scalable Latency Tolerance for Manycore SoCs</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/maple/</link>
+      <link>http://www.amanocha.github.io/publication/maple/</link>
       <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/maple/</guid>
+      <guid>http://www.amanocha.github.io/publication/maple/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GraphAttack&#43;MAPLE: Optimizing Data Supply for Graph Applications on In-Order Multicore Architectures</title>
-      <link>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</link>
+      <link>http://www.amanocha.github.io/talk/dortmund_seminar/</link>
       <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</guid>
+      <guid>http://www.amanocha.github.io/talk/dortmund_seminar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AutoSVA: Democratizing Formal Verification of RTL Module Interactions</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/autosva/</link>
+      <link>http://www.amanocha.github.io/publication/autosva/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/autosva/</guid>
+      <guid>http://www.amanocha.github.io/publication/autosva/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DECADES</title>
-      <link>http://www.cs.princeton.edu/~amanocha/project/decades/</link>
+      <link>http://www.amanocha.github.io/project/decades/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/project/decades/</guid>
+      <guid>http://www.amanocha.github.io/project/decades/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Electric Keyboard</title>
-      <link>http://www.cs.princeton.edu/~amanocha/project/keyboard/</link>
+      <link>http://www.amanocha.github.io/project/keyboard/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/project/keyboard/</guid>
+      <guid>http://www.amanocha.github.io/project/keyboard/</guid>
       <description>&lt;p&gt;&lt;b&gt; &lt;font size=&#34;+2&#34;&gt; Introduction &lt;/font&gt; &lt;/b&gt; &lt;br&gt;
 For the final project for my Digital Systems (ECE350) class, my friend and I created an electric keyboard with 13 custom-made keys using digital logic and an FPGA. The user can play up to three notes simultaneously on a physical light/touch-sensitive keyboard, hear the notes played, and see the notes played on a graphical staff as well as their duration in real time. Each piano key has an LED that lights up when that key is pressed, so the user interacts with a light-sensitive circuit. Additionally, when a key is pressed it sends a signal into our software modules, and in particular our processor. The processor performs computations based on the note played in order to determine how to display that note on a musical staff (how long the note has been played and what note was played). A keyboard key is also highlighted on a graphical keyboard based on the note played. There are also three speaker outputs that play the frequency being sent to them from the clock divider.&lt;/p&gt;
 
@@ -69,20 +69,20 @@ As a precursor to this project, I designed a five-stage pipelined single-issue 3
 &lt;/ol&gt;
 This processor is then programmed onto an FPGA to run MIPS assembly code. I therefore input a MIPS assembly code that runs in a continuous loop to determine what musical notes are currently playing. One register stores a clock cycle counter that increments on every clock cycle. A line of MIPS code checks to see if the clock cycle counter register is at least 25 million because there are 25 million clock 50MHz clock cycles in an eighth note (using a tempo of 60 beats per measure). Other lines of MIPS code are also written assuming certain registers hold certain inputs from the note decoder, or hold outputs that will be accessed by the VGA controller through the processor&amp;rsquo;s output. These include three registers for the note being played, three notes the VGA should display, the x-coordinates of these notes, the note length of each, and a clear screen signal.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.cs.princeton.edu/~amanocha/~amanocha/img/flowchart.png#center&#34; alt=&#34;image&#34; /&gt; &lt;center&gt;&lt;em&gt;A flowchart detailing our music note calculation logic written in MIPS assembly&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.amanocha.github.io/~amanocha/img/flowchart.png#center&#34; alt=&#34;image&#34; /&gt; &lt;center&gt;&lt;em&gt;A flowchart detailing our music note calculation logic written in MIPS assembly&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt; &lt;font size=&#34;+2&#34;&gt; Physical Design &lt;/font&gt; &lt;/b&gt; &lt;br&gt;
 We designed the piano key frame using &lt;a href=&#34;https://www.sketchup.com/&#34; target=&#34;_blank&#34;&gt;SketchUp&lt;/a&gt; and 3D printed the 13-key model.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.cs.princeton.edu/~amanocha/~amanocha/img/model.png#center&#34; alt=&#34;image&#34; /&gt; &lt;center&gt;&lt;em&gt;Our SketchUp model&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.amanocha.github.io/~amanocha/img/model.png#center&#34; alt=&#34;image&#34; /&gt; &lt;center&gt;&lt;em&gt;Our SketchUp model&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Underneath the frame lay a breadboard that contained 13 identical sensing circuits, where each circuit was made up of resistors, a photoresistor, a transistor, and a light-emitting diode (LED). The LED stood up through the top hold in each key and the photoresistor stood up through the bottom hole of each key.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.cs.princeton.edu/~amanocha/~amanocha/img/lightsensor.png#center&#34; alt=&#34;image&#34; /&gt; &lt;center&gt;&lt;em&gt;Sensing circuit schematic&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.amanocha.github.io/~amanocha/img/lightsensor.png#center&#34; alt=&#34;image&#34; /&gt; &lt;center&gt;&lt;em&gt;Sensing circuit schematic&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;A piano key press was simulated by hovering (or touching) a finger over the edge of the key, where the photoresistor was located. We used an IRLD014 NPN MOSFET as a transistor to control when current should flow from its drain to its source, or from the 1K resistor to ground. The photoresistor was connected to the gate of the MOSFET as well as to a 10K resistor that was grounded. When the photoresistor was covered (received less light), its resistance decreased, so there was a lower voltage drop across it (less of a drop from VCC), which caused the gate voltage to increase. As the gate voltage increased, more current flowed from the drain of the MOSFET to the source and since the IR LED was connected to the drain of the MOSFET, more current flowed from VCC (3 volts) through the 1K resistor and into the LED (labeled &amp;ldquo;TO_DI&amp;rdquo; or &amp;ldquo;to diode&amp;rdquo;). Therefore, covering the photoresistor illuminated the LED and we were able to simulate a key lighting up by hovering a finger over the key.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.cs.princeton.edu/~amanocha/~amanocha/img/circuits.png#center&#34; alt=&#34;image&#34; /&gt; &lt;center&gt;&lt;em&gt;The entire hardware system consisting of an FPGA, sensing circuits for keys, and piezoelectric speakers&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.amanocha.github.io/~amanocha/img/circuits.png#center&#34; alt=&#34;image&#34; /&gt; &lt;center&gt;&lt;em&gt;The entire hardware system consisting of an FPGA, sensing circuits for keys, and piezoelectric speakers&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;And here is a demo of the electric keyboard!
 
@@ -106,7 +106,7 @@ We designed the piano key frame using &lt;a href=&#34;https://www.sketchup.com/&
 
 
 &lt;video controls &gt;
-  &lt;source src=&#34;http://www.cs.princeton.edu/~amanocha/~amanocha/img/demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;http://www.amanocha.github.io/img/demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/p&gt;
 </description>
     </item>
