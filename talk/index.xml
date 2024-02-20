@@ -1,54 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aninda Manocha</title>
-    <link>http://www.cs.princeton.edu/~amanocha/</link>
-      <atom:link href="http://www.cs.princeton.edu/~amanocha/index.xml" rel="self" type="application/rss+xml" />
-    <description>Aninda Manocha</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <title>Talks | Aninda Manocha</title>
+    <link>http://www.cs.princeton.edu/~amanocha/talk/</link>
+      <atom:link href="http://www.cs.princeton.edu/~amanocha/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 18 Nov 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>http://www.cs.princeton.edu/~amanocha/img/icon-192.png</url>
-      <title>Aninda Manocha</title>
-      <link>http://www.cs.princeton.edu/~amanocha/</link>
+      <title>Talks</title>
+      <link>http://www.cs.princeton.edu/~amanocha/talk/</link>
     </image>
     
     <item>
-      <title>Publications</title>
-      <link>http://www.cs.princeton.edu/~amanocha/publication/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/publication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Talks</title>
-      <link>http://www.cs.princeton.edu/~amanocha/talk/</link>
+      <title>GraphAttack&#43;MAPLE: Optimizing Data Supply for Graph Applications on In-Order Multicore Architectures</title>
+      <link>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</link>
       <pubDate>Thu, 18 Nov 2021 10:15:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/talk/</guid>
+      <guid>http://www.cs.princeton.edu/~amanocha/talk/dortmund_seminar/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>http://www.cs.princeton.edu/~amanocha/project/</link>
-      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link>http://www.cs.princeton.edu/~amanocha/post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.cs.princeton.edu/~amanocha/post/</guid>
+      <title>Hardware-Software Co-Design for Efficient Graph Application Computations on Emerging Architectures</title>
+      <link>http://www.cs.princeton.edu/~amanocha/talk/fosdem20/</link>
+      <pubDate>Sat, 01 Feb 2020 16:40:00 +0000</pubDate>
+      <guid>http://www.cs.princeton.edu/~amanocha/talk/fosdem20/</guid>
       <description></description>
     </item>
     
